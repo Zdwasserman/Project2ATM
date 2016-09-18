@@ -23,7 +23,7 @@ public class Account {
     public AccountType accountType;
 
     // constructer for account object
-    public Account(String accountHolderName, AccountType accountType, Double balance){
+    public Account(String accountHolderName, Double balance){
         this.accountNum = accountNumCounter++;
         this.accountHolderName = accountHolderName;
         this.accountType = accountType;
