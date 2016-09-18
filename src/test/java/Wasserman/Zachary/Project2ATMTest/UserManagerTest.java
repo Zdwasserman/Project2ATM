@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import Wasserman.Zachary.Project2ATM.User;
 
 
-public class UserManagerTest {
+//public class UserManagerTest {
 
 //    @Test
 //    public void createUserTest(){
@@ -16,8 +16,8 @@ public class UserManagerTest {
 //        String actual = manager.getUser(1001).getUserName();
 //        String expected = ;
 //        assertEquals(expected, actual);
-
-    }
+//
+//    }
 //    @Test
 //    public void userLoginTest(){
 //

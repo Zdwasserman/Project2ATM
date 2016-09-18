@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class UserManager {
     protected ArrayList<User> userList = new ArrayList<>();
-    //User user = new User(null);
+
     User user;
 
     public void createUser(){

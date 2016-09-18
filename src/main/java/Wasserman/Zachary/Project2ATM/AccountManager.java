@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 
 public class AccountManager {
-    ArrayList<Account> accountList = new ArrayList<>();
+    public ArrayList<Account> accountList = new ArrayList<>();
+
     Account account;
 
     public void createAccount(){
@@ -23,7 +24,7 @@ public class AccountManager {
             case "savings":
                 account.accountType = account.accountType.SAVINGS;
                 break;
-            case "invastment":
+            case "investment":
                 account.accountType = account.accountType.INVESTING;
         }
         accountList.add(account);
@@ -46,6 +47,17 @@ public class AccountManager {
         }
         return null;
     }
+    public void deleteAccount(Account account) {
+        if (account.getBalance() == 0){
+        for (int i = 0; i < accountList.size(); i++) {
+            if (accountList.get(i) == account) {
+                accountList.remove(i);
+            }
+            else {
+                System.out.println("Request denied!! account balance does not equal zero");
+            }
+        }
 
-
-}
+        }
+    }
+    }

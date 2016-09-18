@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 
 public class Account {
-    private static int accountNumCounter = 1000000001;
+    private static int accountNumCounter = 1;
     private int accountNum;
     private String accountHolderName;
     //private Enum accountType;
