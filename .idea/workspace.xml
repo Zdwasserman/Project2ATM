@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7a54ab1-c2fc-40bd-a5ae-94f0a9eed8f9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Wasserman/Zachary/Project2ATMTest/AccountManagerTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Wasserman/Zachary/Project2ATM/AccountManager.class" afterPath="$PROJECT_DIR$/target/classes/Wasserman/Zachary/Project2ATM/AccountManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Wasserman/Zachary/Project2ATM/UserManager.class" afterPath="$PROJECT_DIR$/target/classes/Wasserman/Zachary/Project2ATM/UserManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Wasserman/Zachary/Project2ATM/userInterface.class" afterPath="$PROJECT_DIR$/target/classes/Wasserman/Zachary/Project2ATM/userInterface.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/AccountManager.java" afterPath="$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/AccountManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/UserManager.java" afterPath="$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/UserManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/userInterface.java" afterPath="$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/userInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/AccountManagerTest.java" afterPath="$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/AccountManagerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/UserManagerTest.java" afterPath="$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/UserManagerTest.java" />
     </list>
     <ignored path="Project2ATM.iws" />
@@ -37,18 +31,38 @@
       <file leaf-file-name="UserManagerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/UserManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="36" column="7" selection-start-line="22" selection-start-column="0" selection-end-line="36" selection-end-column="7" />
+            <state relative-caret-position="330">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userInterface.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/UserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/UserManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userInterface.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/userInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+            <state relative-caret-position="268">
+              <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,20 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/UserManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AccountManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/AccountManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="660">
               <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
               <folding />
             </state>
@@ -86,21 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/App.java">
+      <file leaf-file-name="AccountTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/AccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/Transaction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+            <state relative-caret-position="120">
+              <caret line="10" column="51" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -116,16 +110,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TransactionManagerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/TransactionManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -134,6 +118,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/TransactionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,11 +168,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/Account.java" />
         <option value="$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/TransactionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/TransactionManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/UserManagerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/AccountManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/userInterface.java" />
         <option value="$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/AccountManagerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/UserManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/UserManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/userInterface.java" />
       </list>
     </option>
   </component>
@@ -226,8 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -318,6 +310,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -336,7 +330,7 @@
       <recent name="Wasserman.Zachary.Project2ATMTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountManagerTest">
+  <component name="RunManager" selected="Application.App">
     <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -884,9 +878,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AccountManagerTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.App" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserManagerTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.App" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserManagerTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AccountManagerTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.UserManagerTest.createUserTest" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.Wasserman.Zachary.Project2ATM in Project2ATM" />
       </list>
@@ -912,35 +906,37 @@
       <workItem from="1474247511337" duration="5824000" />
       <workItem from="1474288895149" duration="7786000" />
       <workItem from="1474306001857" duration="3224000" />
+      <workItem from="1474309429371" duration="5000" />
+      <workItem from="1474316709310" duration="607000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountManagerTest - 2016.09.19 at 11h 46m 29s.xml">
+    <history-entry file="AccountManagerTest - 2016.09.19 at 16h 25m 49s.xml">
       <configuration name="AccountManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountManagerTest - 2016.09.19 at 11h 55m 12s.xml">
+    <history-entry file="AccountManagerTest - 2016.09.19 at 16h 27m 41s.xml">
       <configuration name="AccountManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountManagerTest - 2016.09.19 at 11h 55m 55s.xml">
-      <configuration name="AccountManagerTest" configurationId="JUnit" />
+    <history-entry file="UserManagerTest - 2016.09.19 at 16h 27m 55s.xml">
+      <configuration name="UserManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountManagerTest - 2016.09.19 at 14h 06m 29s.xml">
-      <configuration name="AccountManagerTest" configurationId="JUnit" />
+    <history-entry file="UserManagerTest - 2016.09.19 at 16h 29m 37s.xml">
+      <configuration name="UserManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountManagerTest - 2016.09.19 at 14h 13m 46s.xml">
-      <configuration name="AccountManagerTest" configurationId="JUnit" />
+    <history-entry file="UserManagerTest - 2016.09.19 at 16h 30m 24s.xml">
+      <configuration name="UserManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountManagerTest - 2016.09.19 at 14h 13m 59s.xml">
-      <configuration name="AccountManagerTest" configurationId="JUnit" />
+    <history-entry file="UserManagerTest - 2016.09.19 at 16h 31m 00s.xml">
+      <configuration name="UserManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountManagerTest - 2016.09.19 at 14h 14m 16s.xml">
-      <configuration name="AccountManagerTest" configurationId="JUnit" />
+    <history-entry file="UserManagerTest - 2016.09.19 at 16h 32m 33s.xml">
+      <configuration name="UserManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AccountManagerTest - 2016.09.19 at 14h 15m 26s.xml">
-      <configuration name="AccountManagerTest" configurationId="JUnit" />
+    <history-entry file="UserManagerTest - 2016.09.19 at 16h 32m 48s.xml">
+      <configuration name="UserManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserManagerTest - 2016.09.19 at 13h 29m 35s.xml">
+    <history-entry file="UserManagerTest - 2016.09.19 at 16h 32m 58s.xml">
       <configuration name="UserManagerTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="UserManagerTest_createUserTest - 2016.09.19 at 11h 56m 15s.xml">
@@ -948,7 +944,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80015000" />
+    <option name="totallyTimeSpent" value="80627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -961,7 +957,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-357" y="-1080" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -970,8 +966,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43366337" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43366337" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -980,8 +976,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1329,34 +1325,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/TransactionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/AccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="44" column="80" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1371,42 +1367,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/UserManagerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/TransactionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="36" column="7" selection-start-line="22" selection-start-column="0" selection-end-line="36" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/AccountManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/AccountManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+        <state relative-caret-position="570">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1419,29 +1383,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/User.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/AccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="120">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/AccountManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/AccountManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/UserManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Wasserman/Zachary/Project2ATMTest/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/UserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/userInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+        <state relative-caret-position="268">
+          <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/Project2ATM/UserManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>

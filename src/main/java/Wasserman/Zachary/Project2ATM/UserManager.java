@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class UserManager {
     // a list that holds all user objects
-    protected ArrayList<User> userList = new ArrayList<>();
+    public ArrayList<User> userList = new ArrayList<>();
 
     User user;
     // creates a user and stores it in userList

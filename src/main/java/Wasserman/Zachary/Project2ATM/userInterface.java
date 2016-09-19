@@ -52,6 +52,7 @@ public class userInterface {
             System.out.println("--------------------");
             System.out.println("1) Select an account");
             System.out.println("2) Create an account");
+            System.out.println("3) Delete Account");
             Scanner input = new Scanner(System.in);
             int selection = input.nextInt();
             switch (selection) {
