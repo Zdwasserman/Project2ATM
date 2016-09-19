@@ -13,12 +13,11 @@ public class AccountManagerTest {
 
     @Test
     public void getAccountTest(){
-        ArrayList<Account> accountList = new ArrayList<>();
         AccountManager accManager = new AccountManager();
         Account acc1 = new Account("bob", 0.0);
-        accountList.add(acc1);
+        accManager.accountList.add(acc1);
         Account expected = acc1;
-        Account actual = accManager.getAccount(1001);
+        Account actual = accManager.getAccount(3);
         assertEquals(expected, actual);
     }
     @Test
@@ -28,18 +27,31 @@ public class AccountManagerTest {
         Account acc2 = new Account("fred", 0.0);
         accManager.accountList.add(acc1);
         accManager.accountList.add(acc2);
-        accManager.deleteAccount(acc1);
+        accManager.deleteAccount(1);
         int expected = 1;
         int actual = accManager.accountList.size();
         assertEquals("Account list should have a size of 1", expected, actual);
-
     }
-//    @Test
-//    public void createAccount(){
-//        AccountManager accManager = new AccountManager();
-//        Account account = new Account();
-//        accManager.createAccount("fred", "Checking");
-//        int expected =
-//    }
+    @Test
+    public void deleteAcccountWithBalanceTest() {
+        AccountManager accManager = new AccountManager();
+        Account acc1 = new Account("bob", 10.0);
+        Account acc2 = new Account("fred", 0.0);
+        accManager.accountList.add(acc1);
+        accManager.accountList.add(acc2);
+        accManager.deleteAccount(1);
+        int expected = 2;
+        int actual = accManager.accountList.size();
+        assertEquals("Account list should have a size of 1", expected, actual);
+    }
+    @Test
+    public void createAccount(){
+        AccountManager accManager = new AccountManager();
+
+        accManager.createAccount("fred", "Checking");
+        int expected = 1;
+        int actual = accManager.accountList.size();
+        assertEquals(expected, actual);
+    }
 
 }

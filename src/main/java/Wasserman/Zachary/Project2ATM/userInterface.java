@@ -8,7 +8,7 @@ public class userInterface {
     UserManager manager = new UserManager();
     AccountManager accManager = new AccountManager();
     TransactionManager transManager = new TransactionManager();
-
+    Account account;
 
     User user;
 
@@ -31,15 +31,17 @@ public class userInterface {
                 case 1:
                     System.out.println("Enter your PIN");
                     int pin = input.nextInt();
-                    manager.getUser(pin);
+                    user = manager.getUser(pin);
                     if (manager.user != null) {
-                        //this.user = manager.getUser(pin);
                         loggedIn = true;
                         break;
                     }
+                    break;
                 case 2:
-
-                    manager.createUser();
+                    System.out.println("Enter User Name");
+                    Scanner scan2 = new Scanner(System.in);
+                    String userName = scan2.nextLine();
+                    manager.createUser(userName);
                     break;
                 //case 3: manager.printUserList();
             }
@@ -64,13 +66,15 @@ public class userInterface {
                     break;
                 case 2:
                     System.out.println("What is the name of the account holder?");
-                    String holderName = input.next();
-                    Account account = new Account(holderName, 0.0);
+                    String name = input.next();
                     System.out.println("What type of account do you want to create?");
                     String type = input.next();
-                    System.out.println("You account number is " + account.getAccountNum());
-                    accManager.createAccount(holderName, type);
+                    accManager.createAccount(name, type);
                     break;
+                case 3:
+                    System.out.println("enter the account you want to delete");
+                    int acc = input.nextInt();
+                    accManager.deleteAccount(acc);
             }
 
         }

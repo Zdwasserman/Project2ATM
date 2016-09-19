@@ -7,22 +7,23 @@ import java.util.ArrayList;
 import Wasserman.Zachary.Project2ATM.User;
 
 
-//public class UserManagerTest {
-//
+public class UserManagerTest {
+
+    @Test
+    public void createUserTest() {
+        ArrayList<User> userList = new ArrayList<>();
+        UserManager manager = new UserManager();
+        manager.createUser("bob");
+        int actual = userList.size();
+        int expected = 1;
+        assertEquals(expected, actual);
+
+    }
+
 //    @Test
-//    public void createUserTest(){
-//        UserManager manager = new UserManager();
-//        manager.createUser();
-//        String actual = manager.getUser(1001).getUserName();
-//        String expected = ;
-//        assertEquals(expected, actual);
-//
-//    }
-//    @Test
-//    public void userLoginTest(){
+//    public void userLoginTest() {
 //
 //        UserManager manager = new UserManager();
-//
 //        User bob = new User("bob");
 //        User bill = new User("bill");
 //        User ben = new User("ben");
@@ -34,3 +35,4 @@ import Wasserman.Zachary.Project2ATM.User;
 //        User actual = manager.userList.get(2);
 //        assertEquals(expected, actual);
 //    }
+}

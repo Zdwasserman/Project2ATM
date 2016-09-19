@@ -12,7 +12,8 @@ public class AccountManager {
 
     // Cre
     public void createAccount(String name, String type){
-       account.setAccountHolderName(name);
+        //account.setAccountHolderName(name);
+        Account account = new Account(name, 0.0);
         switch(type){
             case "checking":
                 account.accountType = account.accountType.CHECKING;
@@ -22,8 +23,10 @@ public class AccountManager {
                 break;
             case "investment":
                 account.accountType = account.accountType.INVESTING;
+                break;
         }
         accountList.add(account);
+        System.out.println("You account number is " + account.getAccountNum());
 
     }
     public Account getAccount(int accnum){
@@ -40,10 +43,11 @@ public class AccountManager {
         }
         return null;
     }
-    public void deleteAccount(Account account) {
-        if (account.getBalance() == 0){
+    public void deleteAccount(int acc) {
+
         for (int i = 0; i < accountList.size(); i++) {
-            if (accountList.get(i) == account) {
+            if (accountList.get(i).getAccountNum() == acc) {
+                if (accountList.get(i).getBalance() == 0){
                 accountList.remove(i);
             }
             else {

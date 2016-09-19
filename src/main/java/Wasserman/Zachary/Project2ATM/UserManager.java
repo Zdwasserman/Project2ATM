@@ -5,34 +5,30 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class UserManager {
+    // a list that holds all user objects
     protected ArrayList<User> userList = new ArrayList<>();
 
     User user;
-
-    public void createUser(){
-        System.out.println("Enter User Name");
-        Scanner scan2 = new Scanner(System.in);
-        String userName = scan2.nextLine();
+    // creates a user and stores it in userList
+    public void createUser(String userName){
         User user = new User(userName);
         userList.add(user);
         System.out.println(user.getPIN()+ ": is your new pin");
 
     }
+    // unused - prints content of user list
     public void printUserList(){
         for (User x : userList){
             System.out.println(x);
         }
     }
-
+    // searches user list for specified user and returns it
     public User getUser(int pin) {
         for (int i = 0; i < userList.size(); i++) {
             if (userList.get(i).getPIN() == pin) {
                 System.out.println("Login successful!");
                 user = userList.get(i);
                 return user;
-            }
-            else{
-                System.out.println("Incorrect PIN");
             }
         }
             return null;
