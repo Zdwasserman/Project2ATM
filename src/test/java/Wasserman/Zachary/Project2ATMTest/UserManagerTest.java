@@ -8,7 +8,7 @@ import Wasserman.Zachary.Project2ATM.User;
 
 
 //public class UserManagerTest {
-
+//
 //    @Test
 //    public void createUserTest(){
 //        UserManager manager = new UserManager();

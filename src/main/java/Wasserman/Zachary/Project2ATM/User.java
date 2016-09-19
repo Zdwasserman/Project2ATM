@@ -10,16 +10,20 @@ public class User {
     private int PIN;
     private String userName;
 
+    // a constructor that for User objects
     public User(String userName){
         this.userName = userName;
         this.PIN = PINcounter++;
     }
+    // returns user PIN
     public int getPIN(){
         return PIN;
     }
+    // returns User names
     public String getUserName(){
         return userName;
     }
+    // sets User name
     public void setUserName(String userName){
         this.userName = userName;
     }

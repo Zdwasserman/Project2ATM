@@ -14,8 +14,8 @@ public class userInterface {
 
     public void menu() {
         User user1 = new User("bob");
-        Account testAcc1 = new Account("bob", 0.0);
-        Account testAcc2 = new Account("bob", 0.0);
+        Account testAcc1 = new Account("bob", 500.0);
+        Account testAcc2 = new Account("bob", 500.0);
         manager.userList.add(user1);
         accManager.accountList.add(testAcc1);
         accManager.accountList.add(testAcc2);
@@ -33,11 +33,12 @@ public class userInterface {
                     int pin = input.nextInt();
                     manager.getUser(pin);
                     if (manager.user != null) {
-                        this.user = manager.getUser(pin);
+                        //this.user = manager.getUser(pin);
                         loggedIn = true;
+                        break;
                     }
-                    break;
                 case 2:
+
                     manager.createUser();
                     break;
                 //case 3: manager.printUserList();
@@ -53,13 +54,22 @@ public class userInterface {
             int selection = input.nextInt();
             switch (selection) {
                 case 1:
-                    accManager.getAccount();
+                    System.out.println("Enter your Account Number");
+                    Scanner scan = new Scanner(System.in);
+                    int pin = scan.nextInt();
+                    accManager.getAccount(pin);
                     if (accManager.account != null) {
                         inAccount = true;
                     }
                     break;
                 case 2:
-                    accManager.createAccount();
+                    System.out.println("What is the name of the account holder?");
+                    String holderName = input.next();
+                    Account account = new Account(holderName, 0.0);
+                    System.out.println("What type of account do you want to create?");
+                    String type = input.next();
+                    System.out.println("You account number is " + account.getAccountNum());
+                    accManager.createAccount(holderName, type);
                     break;
             }
 
@@ -83,7 +93,6 @@ public class userInterface {
                     Transaction atm = new Transaction(amount, accManager.account.getAccountNum(), "withdrawn");
                     atm.withdraw(accManager.account, amount);
                     System.out.println(amount + " withdrawn from account");
-
                     transManager.transactionList.add(atm);
                     break;
                 case 2:
@@ -97,12 +106,12 @@ public class userInterface {
                 case 3:
                     System.out.println("How much money do you want to transfer?");
                     amount = input.nextDouble();
-                    System.out.println("What account do you want to tranfer money to?");
                     atm = new Transaction(amount, accManager.account.getAccountNum(), "transfered");
-                    //atm.transfer(accManager.account, amount);
+                    atm.transfer(accManager.account, testAcc2 ,amount);
+                    transManager.transactionList.add(atm);
                     break;
                 case 4:
-                    atm = new Transaction(0.0, accManager.account.getAccountNum(), "check balance");
+                    atm = new Transaction(accManager.account.getBalance(), accManager.account.getAccountNum(), "check balance");
                     System.out.println("your balance is: " +  atm.balance(accManager.account));
                     transManager.transactionList.add(atm);
                     break;

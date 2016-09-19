@@ -42,6 +42,7 @@ public class Account {
     public void setBalance(Double balance){
         this.balance = balance;
     }
+    public void setAccountHolderName(String name){this.accountHolderName = name;}
     // Change account type
     public void setAccountType(AccountType accountType){
         this.accountType = accountType;
